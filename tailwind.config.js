@@ -10,6 +10,10 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
+    extend: {
+      backgroundImage: {
+        'home1':"url(assets/images/wave1.svg)"
+      }}
   },
   variants: {},
   plugins: []
