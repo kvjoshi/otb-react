@@ -3,3 +3,20 @@
 @import 'tailwindcss/components';
 
 @import 'tailwindcss/utilities';
+
+
+.nav-link {
+    @apply text-base font-medium text-gray-500 hover:text-gray-900
+}
+.mob-nav-link {
+    @apply -m-3 p-3 flex items-center rounded-md hover:bg-gray-50 justify-center
+}
+.mob-nav-icon{
+    @apply flex-shrink-0 h-6 w-6 text-indigo-600
+}
+.mob-nav-text{
+    @apply ml-3 text-xl font-medium text-gray-900
+}
+.btn-purple {
+    @apply bg-indigo-500 text-white font-semibold rounded-lg shadow-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-75  inline-flex
+}

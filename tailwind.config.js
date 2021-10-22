@@ -9,11 +9,11 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
-    },
-    extend: {
       backgroundImage: {
-        'home1':"url(assets/images/wave1.svg)"
-      }}
+        'home1':"url(assets/images/home_start_bg.svg)"
+      }
+    },
+
   },
   variants: {},
   plugins: [require('daisyui'),],
