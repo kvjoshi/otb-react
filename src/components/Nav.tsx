@@ -84,7 +84,7 @@ function classNames(...classes: string[]) {
 
 const Nav: React.FC = () => { {
     return (
-        <Popover className="relative bg-white z-10">
+        <Popover className="relative  z-10">
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -104,7 +104,7 @@ const Nav: React.FC = () => { {
                         </Popover.Button>
                     </div>
                     <Popover.Group as="nav" className="hidden md:flex space-x-10">
-                        <a href="#" className="nav-link">
+                        <a href="./adventure" className="nav-link">
                             Adventure Zone
                         </a>
                         <a href="#" className="nav-link">
