@@ -188,7 +188,7 @@ function Home() {
                 </div>
 
 
-                <div className="relative  w-full h-full p-36" style={{ backgroundImage: `url(${resttt})`,
+                <div className="relative  w-full h-full  p-10 md:p-36" style={{ backgroundImage: `url(${resttt})`,
                     backgroundPosition: 'center', /* Center the image */
                     backgroundRepeat: 'no-repeat', /* Do not repeat the image */
                     backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
@@ -211,14 +211,14 @@ function Home() {
                         </div>
                 </div>
 
-                <div className="relative  w-full h-full p-36" style={{ backgroundImage: `url(${bg_event})`,
+                <div className="relative  w-full h-full p-10 md:p-36" style={{ backgroundImage: `url(${bg_event})`,
                     backgroundPosition: 'center', /* Center the image */
                     backgroundRepeat: 'no-repeat', /* Do not repeat the image */
                     backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
                     <div className="text-color justify-center text-center">
                         <h1 className="text-5xl  xl:w-full xl:text-7xl  text-bold text-white  f-f-l">Events</h1>
 
-                        <section className="px-4 py-24 mx-auto max-w-7xl">
+
                             <div
                                 className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
                                 <div>
@@ -251,7 +251,7 @@ function Home() {
                                 </div>
                                 <div className="w-full h-full py-48 bg-gray-200"></div>
                             </div>
-                        </section>
+                        
 
                     </div>
                 </div>
