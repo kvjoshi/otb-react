@@ -88,7 +88,7 @@ const Nav: React.FC = () => { {
             <div className="max-w-7xl mx-auto px-4 sm:px-6">
                 <div className="flex justify-between items-center  py-6 md:justify-start md:space-x-10">
                     <div className="flex justify-start lg:w-0 lg:flex-1">
-                        <a href="#">
+                        <a href="./">
                             <span className="sr-only">Out Of The Box</span>
                             <img
                                 className="h-20 w-auto sm:h-20"
@@ -107,7 +107,7 @@ const Nav: React.FC = () => { {
                         <a href="./adventure" className="nav-link">
                             Adventure Zone
                         </a>
-                        <a href="#" className="nav-link">
+                        <a href="./aqua" className="nav-link">
                             Aqua Zone
                         </a>
                         <a href="#" className="nav-link">
@@ -124,7 +124,7 @@ const Nav: React.FC = () => { {
                         </a>
                     </Popover.Group>
                     <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                        <a href="#" className="btn-purple  py-2 px-4 ">
+                        <a href="tel:+918980989999" className="btn-purple  py-2 px-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                             </svg>
@@ -150,11 +150,13 @@ const Nav: React.FC = () => { {
                         <div className="pt-5 pb-6 px-5">
                             <div className="flex items-center justify-between">
                                 <div>
+                                    <a href={'./'}>
                                     <img
                                         className="h-30 w-auto justify-self-center"
                                         src={ logo }
                                         alt="OTB Logo"
                                     />
+                                    </a>
                                 </div>
                                 <div className="-mr-2">
                                     <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -193,7 +195,7 @@ const Nav: React.FC = () => { {
                             </div>*/}
                             <div>
                                 <a
-                                    href="#"
+                                    href="tel:+918980989999"
                                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
                                 >
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

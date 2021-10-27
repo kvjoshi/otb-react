@@ -1,46 +1,85 @@
 import React from 'react'
+import bg_adv_main from "../assets/bg/adv_main_bg.svg";
+import bg_adv_1 from "../assets/bg/adv_1_bg.svg";
+import paintball_batte from "../assets/img/paintball_home.svg";
+import aqua_bg_main1 from '../assets/bg/aqua_bg_main1.svg'
 
+import pool from "../assets/images/pool1.svg";
+import blob from "../assets/images/blob1.svg";
 
 function Aqua() {
     return (
-        <footer className="p-10 footer bg-primary text-primary-content footer-center">
-            <div className="grid grid-flow-col gap-4">
-                <a className="link link-hover">Adventure</a>
-                <a className="link link-hover">Aqua Zone</a>
-                <a className="link link-hover">Restro-Cafe</a>
-                <a className="link link-hover">Events</a>
-                <a className="link link-hover">Blog</a>
-                <a className="link link-hover">Locate Us</a>
-            </div>
-            <div>
-                <div className="grid grid-flow-col gap-4">
-                    <a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                             className="fill-current">
-                            <path
-                                d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
-                        </svg>
-                    </a>
-                    <a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                             className="fill-current">
-                            <path
-                                d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
-                        </svg>
-                    </a>
-                    <a>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                             className="fill-current">
-                            <path
-                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
-                        </svg>
-                    </a>
+        <>
+            <section className="relative  w-full h-screen p-30 pt-56 md:p-52 text-blueGray-700" style={{ backgroundImage: `url(${aqua_bg_main1})`,
+                backgroundColor: '#ffffff',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'contain', /* Resize the background image to cover the entire container */
+            }}>
+                <div className="container flex flex-col items-center px-5 py-8 mx-auto">
+                    <div className="flex flex-col w-full mb-12 text-left text-center">
+                        <h2 className="mb-4 text-xs font-semibold tracking-widest  uppercase title-font">Welcome To</h2>
+                        <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter  lg:w-1/2 sm:text-6xl title-font">Aqua Zone</h1>
+                        {/*<h2 className="mb-6 text-xs font-semibold tracking-widest text-black uppercase title-font">Amazement Park</h2>*/}
+
+                        <div className="pb-36 pt-1 xl:pt-20  text-center sm:p-10">
+                            <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl">An aqua-zing experience for the entire family as we offer separate pools for adults & kids.
+                            </p>
+                            <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl">Dance
+                                your worries out with our built-in DJ system & wait, we have got rain dance parties too!
+                            </p>
+
+
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <div>
-                <p>Copyright © 2021 - All right reserved by Out Of The Box Pvt. Ltd.</p>
-            </div>
-        </footer>
+            </section>
+            <section className="  w-full h-full p-26" style={{ backgroundImage: `url(${blob})`,
+                backgroundColor: '#543216',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4    container mx-auto grid   lg:pt-36 " style={{ backgroundImage: `url(${pool})`,
+                    backgroundPosition: 'center', /* Center the image */
+                    backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                    backgroundSize: 'auto', /* Resize the background image to cover the entire container */ }}>
+                    <div className="text-color justify-center text-center">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l  pb-56">Facilities</h1>
+                        <div className="flex flex-col mb-12 ">
+                            <div className="p-10">
+                                <h1 className="mb-12 text-2xl font-semibold leading-relaxed  text-center  lg:text-3xl "> At OTB,
+                                    don’t bother about the nifty’s, we have covered you with swim costumes, lockers, shower &
+                                    changing rooms.</h1>
+                                <h1 className="mb-12 text-2xl font-semibold leading-relaxed  text-center  lg:text-3xl ">We also organize social gatherings, Weddings & Receptions at poolside which can
+                                    accommodate the crowd of 500 at once!</h1>
+
+                            </div>
+                            <div className={'p-10 pb-30'}>
+                            <div className="content-left text-left justify-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 m-4 inline" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                </svg>
+                                <h2 className="mx-auto mb-4 text-xl font-semibold inline text-left leading-none tracking-tighter text-black title-font text-left">Depth of pool for adults – 4.5 ft
+                                </h2>
+                            </div>
+                            <div className="content-left text-left justify-start">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 m-4 inline" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                                </svg>
+                                <h2 className="mx-auto mb-4 text-xl font-semibold inline text-left leading-none tracking-tighter text-black title-font text-left"> Depth of pool for kids – 2 ft
+                                </h2>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
     );
 }
 

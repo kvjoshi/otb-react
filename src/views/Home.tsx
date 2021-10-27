@@ -7,20 +7,21 @@ import bg_start from "../assets/bg/home_start_bg.svg";
 import bg_about from "../assets/bg/home_about_bg.svg";
 import bg_adv from "../assets/bg/home_adv_bg.svg";
 import bg_event from "../assets/bg/home_event_bg.svg";
+import rock from "../assets/bg/wall.svg";
 
+import arch from "../assets/bg/archery.svg";
+import army from "../assets/bg/army.svg";
+import army2 from "../assets/bg/army1.svg";
+import bully from "../assets/bg/bully.svg";
+import rope from "../assets/bg/rope.svg";
 
 import resttt from "../assets/images/resttt.svg";
-import pool from "../assets/images/pool1.png";
-import pool1 from "../assets/images/pool1.svg";
+import pool1 from "../assets/images/pool1.png";
+import pool from "../assets/images/pool1.svg";
 import blob1 from "../assets/images/blob1.svg";
 import pc1 from "../assets/images/g13591.webp";
 import paintball from "../assets/images/paintball.webp";
-import arch from "../assets/images/arch.png";
-import army from "../assets/images/army.png";
-import army2 from "../assets/images/army2.png";
-import bully from "../assets/images/bully.png";
-import rope from "../assets/images/rope.png";
-import rock from "../assets/images/g56632.png";
+
 import bumpcar from "../assets/images/g55847.png";
 import pizza from "../assets/images/g127884.png";
 import sizller from "../assets/images/g90143.png";
@@ -112,7 +113,7 @@ function Home() {
                     backgroundPosition: 'bottom', /* Center the image */
                     backgroundRepeat: 'no-repeat', /* Do not repeat the image */
                     backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
-                    <div className="relative px-4 xl:px-0 h-full  container mx-auto grid  p-40 lg:pt-36 ">
+                    <div className="relative px-4 xl:px-0 h-full  container mx-auto grid  p-32 lg:pt-36 ">
                         <div className="text-color justify-center text-center">
                             <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l pb-20">Adventure</h1>
                             <div className='grid grid-cols-4 content-center'>
@@ -130,6 +131,26 @@ function Home() {
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                            <div className='text-center'>
+                                <p className='text-2xl xl:text-5xl w-full text-center text-red-700 font-mono p-4'>
+                                    Top Attractions
+                                </p>
+                            </div>
+                            <div className='c543'>
+                                <div className='f543'>
+                                    <img src={rock} className={'h-60'} style={{}} alt={'Wall Climbing'}/>
+                                    <p className='text-xl p-5 font-mono  '>Wall Climbing</p>
+                                </div>
+                                <div className='f543'>
+                                    <img src={bully} className={'h-60'} style={{}} alt={'Wall Climbing'}/>
+                                    <p className='text-xl p-5 font-mono'>The Bully</p>
+                                </div>
+                                <div className='f543'>
+                                    <img src={rope} className={'h-60'} style={{}} alt={'Wall Climbing'}/>
+                                    <p className='text-xl p-5 font-mono'>Rope Rumble</p>
+                                </div>
+
                             </div>
                         </div>
 

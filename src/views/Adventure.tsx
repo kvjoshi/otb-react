@@ -4,10 +4,19 @@ import React, { useState } from "react";
 import "@egjs/react-flicking/dist/flicking.css";
 
 import bg_start from "../assets/bg/home_start_bg.svg";
-import bg_about from "../assets/bg/home_about_bg.svg";
-import bg_adv from "../assets/bg/home_adv_bg.svg";
-import bg_event from "../assets/bg/home_event_bg.svg";
+import rock from "../assets/bg/wall.svg";
+import adv_wall_bg from "../assets/bg/adv_wall_bg.svg"
+import adv_rope_bg from "../assets/bg/adv_rope_bg.svg"
+import wall_big from '../assets/bg/adv_wall.svg'
+import camo_hunter from "../assets/bg/camo-hunter-orange.svg"
+import Woodland_Camouflage from "../assets/bg/Woodland_Camouflage.svg"
+import paintball_battle from '../assets/bg/paintball_battle.svg'
+import adv_paintball_bg from "../assets/bg/adv_paintball_bg.svg";
+import adv_paintball_bg11 from "../assets/bg/adv_paintball_bg11.svg";
+import paintball_match from '../assets/bg/paintball_match.svg';
 import bg_adv_main from "../assets/bg/adv_main_bg.svg";
+import tramp from '../assets/bg/tramp.svg'
+import kids from '../assets/bg/kids.svg'
 import bg_adv_1 from "../assets/bg/adv_1_bg.svg";
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
@@ -16,17 +25,16 @@ import pool from "../assets/images/pool1.png";
 import pool1 from "../assets/images/pool1.svg";
 import blob1 from "../assets/images/blob1.svg";
 import pc1 from "../assets/images/g13591.webp";
-import paintball from "../assets/images/paintball.webp";
-import arch from "../assets/images/arch.png";
-import army from "../assets/images/army.png";
-import army2 from "../assets/images/army2.png";
-import bully from "../assets/images/bully.png";
-import rope from "../assets/images/rope.png";
-import rock from "../assets/images/g56632.png";
-import bumpcar from "../assets/images/g55847.png";
+import arch from "../assets/bg/archery.svg";
+import army from "../assets/bg/army.svg";
+import army2 from "../assets/bg/army1.svg";
+import bully from "../assets/bg/bully.svg";
+import rope from "../assets/bg/rope.svg";
+import bumpcar from "../assets/bg/bumper.svg";
+import bouncy from '../assets/bg/bouncy.svg'
 import pizza from "../assets/images/g127884.png";
 import sizller from "../assets/images/g90143.png";
-import paintball_batte from '../assets/img/paintball_home.svg';
+import paintball from '../assets/img/paintball_home.svg';
 import Flicking from "@egjs/react-flicking";
 import Slider from "react-slick";
 
@@ -46,188 +54,328 @@ function Home() {
 
     return (
         <>
-            <section className="relative  w-full h-screen p-56 text-blueGray-700" style={{ backgroundImage: `url(${bg_adv_main})`,
+            <section className="relative  w-full h-screen p-30 pt-56 md:p-52 text-blueGray-700" style={{ backgroundImage: `url(${bg_adv_main})`,
                 backgroundColor: '#ffffff',
                 backgroundPosition: 'bottom', /* Center the image */
                 backgroundRepeat: 'no-repeat', /* Do not repeat the image */
                 backgroundSize: 'cover', /* Resize the background image to cover the entire container */
             }}>
-
                 <div className="container flex flex-col items-center px-5 py-8 mx-auto">
                     <div className="flex flex-col w-full mb-12 text-left text-center">
-                        <h2 className="mb-4 text-xs font-semibold tracking-widest text-white uppercase title-font">Welcome To</h2>
-                        <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter text-white lg:w-1/2 sm:text-6xl title-font">Adventure Zone</h1>
+                        <h2 className="mb-4 text-xs font-semibold tracking-widest  uppercase title-font">Welcome To</h2>
+                        <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter  lg:w-1/2 sm:text-6xl title-font">Adventure Zone</h1>
                         {/*<h2 className="mb-6 text-xs font-semibold tracking-widest text-black uppercase title-font">Amazement Park</h2>*/}
 
                         <div className="pb-36 pt-1 xl:pt-20  text-center sm:p-10">
-                            <p className="mb-8 md:mb-14 text-lg text-white font-semibold md:text-2xl lg:text-3xl">Rajkot’s largest “Out of The Box – Amazement Park” offers an unforgettable experience & one
+                            <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl">Rajkot’s largest “Out of The Box – Amazement Park” offers an unforgettable experience & one
                                 which you will love to visit over & over again!
                             </p>
-                            <p className='mb-10 pb-36 md:mb-14 text-white text-2xl md:text-4xl lg:text-5xl font-bold '>You name it, we have it.</p>
+                            <p className='mb-10 pb-36 md:mb-14  text-2xl md:text-4xl lg:text-5xl font-bold '>You name it, we have it.</p>
 
                         </div>
 
                     </div>
                 </div>
-
             </section>
-            <div className="  w-full h-full" style={{ backgroundImage: `url(${bg_adv_1})`,
+            <section className="  w-full h-full " style={{ backgroundImage: `url(${adv_paintball_bg})`,
                 backgroundColor: '#543216',
-                backgroundPosition: 'top', /* Center the image */
+                backgroundPosition: 'center', /* Center the image */
                 backgroundRepeat: 'no-repeat', /* Do not repeat the image */
-                backgroundSize: 'contain', /* Resize the background image to cover the entire container */ }}>
-                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-30 sm:pt-20 lg:pt-20 ">
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
                     <div className="text-color justify-center text-center pb-10">
-                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l pt-30 pb-20 sm:pb-44">About Us</h1>
-                        <div className="grid grid-cols-3 gap-4">
-
-                                <div>
-
-                                        <div><img alt="" src={paintball}/></div>
-                                        <div><img alt="" src={arch}/></div>
-                                        <div><img alt="" src={army}/></div>
-                                        <div><img alt="" src={rock}/></div>
-
-                                </div>
-
-                            <div>
-                                <img src={paintball_batte} className={'w-full'} style={{}} alt={'paintball battle'}/>
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Paintball Battle</h1>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={paintball_battle} className={'w-full'} style={{}} alt={'paintball battle'}/>
+                            </div>
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    This has to be one of the best stress relieving shooting games ever made; divided
+                                    in two teams, hit as many as you can & be the WINNER! Seems too easy, isn’t it? We bet it
+                                    not!
+                                </p>
                             </div>
                         </div>
 
                     </div>
                 </div>
+            </section>
+            <section className="  w-full h-full " style={{ backgroundImage: `url(${adv_paintball_bg11})`,
+                backgroundColor: '#543216',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Paintball Battle</h1>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={paintball_match} className={'w-full'} style={{}} alt={'paintball battle'}/>
+                            </div>
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    This has to be one of the best stress relieving shooting games ever made; divided
+                                    in two teams, hit as many as you can & be the WINNER! Seems too easy, isn’t it? We bet it
+                                    not!
+                                </p>
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${adv_wall_bg})`,
+                backgroundColor: '#543216',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Wall-Climbing</h1>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl  text-white">
+                                    Climb as high as 25 ft and enjoy a mesmerizing view of the venue & the
+                                    neighborhood. (You should be at least 15 to participate)
+                                </p>
+                            </div>
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={rock} className={'w-full'} style={{}} alt={'Wall-Climbing'}/>
+                            </div>
+                        </div>
 
-                <div className="relative  w-full h-full  " style={{ backgroundImage: `url(${bg_adv})`,
-                    backgroundColor: '#543216',
-                    backgroundPosition: 'bottom', /* Center the image */
-                    backgroundRepeat: 'no-repeat', /* Do not repeat the image */
-                    backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
-                    <div className="relative px-4 xl:px-0 h-full  container mx-auto grid  p-40 lg:pt-36 ">
-                        <div className="text-color justify-center text-center">
-                            <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l pb-20">Adventure</h1>
-                            <div className='grid grid-cols-4 content-center'>
-                                <div className='col-span-4 lg:col-span-3'>
-                                    <img src={paintball_batte} className={'w-full'} style={{}} alt={'paintball battle'}/>
-                                </div>
-                                <div className='col-span-4 lg:col-span-1 pt-20 flex  flex-wrap'>
-                                    <div>
-                                        <p className='text-white text-2xl pb-5 mb-3'>Your life is filled with surprises and OTB has got the right mix to enjoy it to the fullest! </p>
-                                        <p className='text-black lg:text-white text-2xl pt-16'>Turn down
-                                            you’re boring af weekdays to joyful one’s with crazy adventure activities like Paintball , Wall Climbing , Rope Rumble and more...</p>
+                    </div>
+                </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${adv_wall_bg})`,
+                backgroundColor: '#543216',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Wall-Climbing</h1>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl  text-white">
+                                    Climb as high as 25 ft and enjoy a mesmerizing view of the venue & the
+                                    neighborhood. (You should be at least 15 to participate)
+                                </p>
+                            </div>
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={wall_big} className={'w-full'} style={{}} alt={'Wall-Climbing'}/>
+                            </div>
+                        </div>
 
-                                        <a className='btn-purple px-4 py-4 justify-self-center m-10' href='#'>
-                                            Learn More
-                                        </a>
+                    </div>
+                </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${adv_rope_bg})`,
+                backgroundColor: '#9f683e',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl  f-f-l p-10">Rope Rumble</h1>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={rope} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
+                            </div>
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl ">
+                                    This notorious rope course has 20+ activities to test one’s agility,
+                                    spontaneity, balance & wit. (Minimum height would be 4 ft)
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${Woodland_Camouflage})`,
+                backgroundColor: '#543216',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Army Rampage</h1>
+                        <div className="grid grid-cols-2 gap-4">
+
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    This notorious rope course has 20+ activities to test one’s agility,
+                                    spontaneity, balance & wit. (Minimum height would be 4 ft)
+                                </p>
+                            </div>
+                            <div className="col-span-2 md:col-span-1">
+                                <div className='grid grid-cols-2 gap-2'>
+                                    <div className="col-span-2 md:col-span-1">
+                                        <img src={army} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
+                                    </div>
+                                    <div className="col-span-2 md:col-span-1">
+                                        <img src={army2} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${''})`,
+                backgroundColor: '#bb9579',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Bull Ride</h1>
+                        <div className="grid grid-cols-2 gap-4">
 
-
-                <div className="relative  w-full h-full" style={{ backgroundImage: `url(${blob1})`,
-                    backgroundColor: '#66cdb1',
-                    backgroundPosition: 'bottom', /* Center the image */
-                    backgroundRepeat: 'no-repeat', /* Do not repeat the image */
-                    backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
-                    <div className="relative px-4    container mx-auto grid   lg:pt-36 " style={{ backgroundImage: `url(${pool})`,
-                        backgroundPosition: 'center', /* Center the image */
-                        backgroundRepeat: 'no-repeat', /* Do not repeat the image */
-                        backgroundSize: 'auto', /* Resize the background image to cover the entire container */ }}>
-                        <div className="text-color justify-center text-center">
-                            <h1 className="text-5xl  xl:w-full xl:text-7xl text-red-700 f-f-l  pb-56">Aqua Zone</h1>
-                            <div className="flex flex-col mb-12 ">
-                                <div className=" pt-16">
-                                    <h1 className="mb-12 text-2xl font-semibold leading-relaxed  text-center text-red-700 lg:text-3xl "> A small headline to switch your visitors into users. </h1>
-                                    {/*<h2 className="mx-auto mb-4 text-xl font-semibold leading-none tracking-tighter text-black title-font"> A small headline to switch your visitors into users. </h2>*/}
-                                    <p className="text-3xl font-medium leading-relaxed text-center text-red-700 "> Dance
-                                        your worries out with our built-in DJ system & wait, we have got rain dance parties too!</p>
-                                </div>
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    Have the guts & strength to withstand our mighty “BULLY”? Ride on our
+                                    mechanical bull & challenge yourself to come out as a victor! (Minimum eligible age – 12
+                                    years)
+                                </p>
                             </div>
-                            {/*<div className="f-f-r text-xl lg:text-3xl pb-36  pt-10 xl:pt-20 text-left pl-20 flex-row ">
-                                <div>
-                                    <img src={pc1} />
-                                    <h2 className="text-black f-f-r pt-10">Exclusive Pool Party</h2>
-                                </div>
-                            </div>*/}
+                            <div className="col-span-2 md:col-span-1">
+                                        <img src={bully} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${''})`,
+                backgroundColor: '#e5afaf',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Archery</h1>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={arch} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
+                            </div>
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    Challenge your friends at the world’s oldest form of combat to test your focus,
+                                    precision & aiming skills. Hit that Bull’s Eye! (Minimum eligible age – 12 years)
+                                </p>
+                            </div>
 
-
-                <div className="relative  w-full h-full p-36" style={{ backgroundImage: `url(${resttt})`,
-                    backgroundPosition: 'center', /* Center the image */
-                    backgroundRepeat: 'no-repeat', /* Do not repeat the image */
-                    backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
-                    <div className="text-color justify-center text-center">
-                        <h1 className="text-5xl  xl:w-full xl:text-7xl  text-bold text-white f-f-l">Restro Cafe</h1>
-                        <div className="flex flex-col text-center  w-full mb-12 text-left ">
-                            <img src={pizza} className={'w-full md:w-1/2 self-center'} alt={''}/>
-                            <h1 className="mx-auto mb-12 text-2xl font-semibold leading-none tracking-tighter text-white lg:text-3xl title-font"> Our idea from day one has been to create, produce and serve super great, full-flavored food that has a beginning, middle, and finish to every bite. Everything at Apple Bite is ruled by taste. We strive for efficient, uncompromised, sincere, fabulous, caring and exceptional service.</h1>
-                            <h2 className="mx-auto mb-4 text-xl  font-semibold leading-none tracking-tighter text-white title-font">Let the gourmet in you relish exalted cuisines by acclaimed chefs at the Apple Bite.
-                                With a splendid amalgam of select spices and modern cooking techniques, each course cooked here is a work of wonder.</h2>
                         </div>
-                        {/*<div className="f-f-r text-xl lg:text-3xl pb-36  pt-10 xl:pt-20 text-left pl-20 flex-row ">
-                                <div>
-                                    <img src={pc1} />
-                                    <h2 className="text-black f-f-r pt-10">Exclusive Pool Party</h2>
-                                </div>
-                            </div>*/}
-
-
                     </div>
                 </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${''})`,
+                backgroundColor: '#e5afaf',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-7xl  xl:w-full xl:text-9xl text-white f-f-l p-30">Kids Zone </h1>
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Bumper to Bumper</h1>
+                        <div className="grid grid-cols-2 gap-4">
 
-                <div className="relative  w-full h-full p-36" style={{ backgroundImage: `url(${bg_event})`,
-                    backgroundPosition: 'center', /* Center the image */
-                    backgroundRepeat: 'no-repeat', /* Do not repeat the image */
-                    backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
-                    <div className="text-color justify-center text-center">
-                        <h1 className="text-5xl  xl:w-full xl:text-7xl  text-bold text-white  f-f-l">Events</h1>
-
-                        <section className="px-4 py-24 mx-auto max-w-7xl">
-                            <div
-                                className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
-                                <div>
-                                    <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center text-white md:leading-tight sm:text-left md:text-4xl">
-                                        Thinking Of Hosting An Event?
-                                    </h2>
-                                    <p className="mb-5 text-base text-center text-white sm:text-left md:text-lg">
-                                        Out of The Box is a creative business dedicated to helping you design and host a stunning event for
-                                        the ones you love. We believe in setting up something better for everyone, no matter the
-                                        circumstance!
-                                    </p>
-                                    <a href="#" className="w-full btn btn-purple btn-lg sm:w-auto">Learn More</a>
-                                </div>
-                                <div className="w-full h-full py-48 bg-gray-200"></div>
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    Get on a bumpy ride – bump, bump & bump! Let your kid dash the car
+                                    or escape from getting bumped. Ride – Bump – Dodge is all you have to do. (Age limit – 7-18
+                                    years, weight under 50 kg
+                                </p>
                             </div>
-                            <div
-                                className="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
-                                <div className="order-none md:order-2">
-                                    <h2 className="mb-4 text-2xl font-extrabold tracking-tight text-center text-white md:leading-tight sm:text-left md:text-4xl">
-                                        Cant Decide Where To Get Married ?</h2>
-                                    <p className="mb-5 text-base text-center text-white sm:text-left md:text-lg">
-                                        We offer a unique Wedding style – Riverfront Wedding; specially for those who wish to marry in
-                                        front of a beautiful landscape!
-                                    </p>
-                                    <p className="mb-5 text-base text-center text-white sm:text-left md:text-lg">
-                                        You can choose from Lawn or Banquet too or simply wed at the poolside. Enjoy your wedding, hire
-                                        #OTB to make it a success!
-                                    </p>
-                                    <a href="#" className="w-full btn btn-purple btn-lg sm:w-auto">Learn More</a>
-                                </div>
-                                <div className="w-full h-full py-48 bg-gray-200"></div>
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={bumpcar} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
                             </div>
-                        </section>
 
+                        </div>
                     </div>
                 </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${''})`,
+                backgroundColor: '#e5afaf',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
 
-            </div>
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Bouncy</h1>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={bouncy} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
+                            </div>
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    Bounce as high as you can & never fear of falling; with Bouncy, see how well your
+                                    kids can shut up & bounce! (Maximum age – 14 years)
+
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${''})`,
+                backgroundColor: '#e5afaf',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Trampoline</h1>
+                        <div className="grid grid-cols-2 gap-4">
+
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    Hop – Fall – Jump; let your toddlers experience the power of gravity!
+                                    (Maximum age – 12 years)
+                                </p>
+                            </div>
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={tramp} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section className="w-full h-full " style={{ backgroundImage: `url(${''})`,
+                backgroundColor: '#e5afaf',
+                backgroundPosition: 'center', /* Center the image */
+                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
+                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
+                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                    <div className="text-color justify-center text-center pb-10">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Kinder Garden</h1>
+                        <div className="grid grid-cols-2 gap-4">
+                            <div className="col-span-2 md:col-span-1">
+                                <img src={kids} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
+                            </div>
+                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
+                                <p className="text-2xl font-semibold md:text-3xl text-white">
+                                    Kids need to explore & horne their skills at young age & Kinder Garden is
+                                    just the place to be! Allow them the freedom and see them coming out with flying colors.
+                                    (Maximum age – 12 years)
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
 
 
 

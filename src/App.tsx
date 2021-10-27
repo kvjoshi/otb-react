@@ -7,6 +7,7 @@ import About from './views/About'
 import Adventure from './views/Adventure'
 import NotFound from './views/NotFound'
 import Footer from "./components/Footer";
+import Aqua from "./views/Aqua";
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
         </Route>
         <Route path="/adventure">
           <Adventure />
+        </Route>
+        <Route path="/aqua">
+          <Aqua />
         </Route>
         <Route>
           <NotFound />
