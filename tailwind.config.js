@@ -16,7 +16,9 @@ module.exports = {
 
   },
   variants: {},
-  plugins: [require('daisyui'),],
+  plugins: [require('daisyui'),require("@tailwindcss/forms")({
+    strategy: 'class',
+  }),],
   daisyui: {
     styled: true,
     themes: false,

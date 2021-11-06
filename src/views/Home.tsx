@@ -132,26 +132,7 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='text-center'>
-                                <p className='text-2xl xl:text-5xl w-full text-center text-red-700 font-mono p-4'>
-                                    Top Attractions
-                                </p>
-                            </div>
-                            <div className='c543'>
-                                <div className='f543'>
-                                    <img src={rock} className={'h-60'} style={{}} alt={'Wall Climbing'}/>
-                                    <p className='text-xl p-5 font-mono  '>Wall Climbing</p>
-                                </div>
-                                <div className='f543'>
-                                    <img src={bully} className={'h-60'} style={{}} alt={'Wall Climbing'}/>
-                                    <p className='text-xl p-5 font-mono'>The Bully</p>
-                                </div>
-                                <div className='f543'>
-                                    <img src={rope} className={'h-60'} style={{}} alt={'Wall Climbing'}/>
-                                    <p className='text-xl p-5 font-mono'>Rope Rumble</p>
-                                </div>
 
-                            </div>
                         </div>
 
                     </div>

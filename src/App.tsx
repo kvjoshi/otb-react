@@ -8,6 +8,8 @@ import Adventure from './views/Adventure'
 import NotFound from './views/NotFound'
 import Footer from "./components/Footer";
 import Aqua from "./views/Aqua";
+import Restro from "./views/Restro";
+import Events from "./views/Events";
 
 const App = () => {
   return (
@@ -26,6 +28,12 @@ const App = () => {
         </Route>
         <Route path="/aqua">
           <Aqua />
+        </Route>
+        <Route path="/restro">
+          <Restro />
+        </Route>
+        <Route path="/events">
+          <Events />
         </Route>
         <Route>
           <NotFound />

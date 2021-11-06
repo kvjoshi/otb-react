@@ -20,7 +20,7 @@ function Aqua() {
                     <div className="flex flex-col w-full mb-12 text-left text-center">
                         <h2 className="mb-4 text-xs font-semibold tracking-widest  uppercase title-font">Welcome To</h2>
                         <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter  lg:w-1/2 sm:text-6xl title-font">Aqua Zone</h1>
-                        {/*<h2 className="mb-6 text-xs font-semibold tracking-widest text-black uppercase title-font">Amazement Park</h2>*/}
+
 
                         <div className="pb-36 pt-1 xl:pt-20  text-center sm:p-10">
                             <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl">An aqua-zing experience for the entire family as we offer separate pools for adults & kids.

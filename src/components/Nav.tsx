@@ -110,16 +110,16 @@ const Nav: React.FC = () => { {
                         <a href="./aqua" className="nav-link">
                             Aqua Zone
                         </a>
-                        <a href="#" className="nav-link">
+                        <a href="./restro" className="nav-link">
                             Restro Cafe
                         </a>
-                        <a href="#" className="nav-link">
+                        <a href="./events" className="nav-link">
                             Events
                         </a>
                         <a href="#" className="nav-link">
                             Blog
                         </a>
-                        <a href="#" className="nav-link">
+                        <a href="./locateus" className="nav-link">
                             Locate Us
                         </a>
                     </Popover.Group>
