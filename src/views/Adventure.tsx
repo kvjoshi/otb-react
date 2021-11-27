@@ -5,7 +5,7 @@ import "@egjs/react-flicking/dist/flicking.css";
 
 import bg_start from "../assets/bg/home_start_bg.svg";
 import rock from "../assets/bg/wall.svg";
-import adv_wall_bg from "../assets/bg/adv_wall_bg.svg"
+import adv_wall_bg from "../assets/bg/wall_bg.svg"
 import adv_rope_bg from "../assets/bg/adv_rope_bg.svg"
 import wall_big from '../assets/bg/adv_wall.svg'
 import camo_hunter from "../assets/bg/camo-hunter-orange.svg"
@@ -119,35 +119,22 @@ function Home() {
                                     in two teams, hit as many as you can & be the WINNER! Seems too easy, isn’t it? We bet it
                                     not!
                                 </p>
-                            </div>
-                        </div>
+                                <p className='text-base text-left text-white'>
+                                    Requirement:
+                                    <ul>
+                                        <li>Age Limit: 18 yrs +</li>
+                                        <li>Waiver Sign</li>
+                                    </ul>
 
-                    </div>
-                </div>
-            </section>
-            <section className="w-full h-full " style={{ backgroundImage: `url(${adv_wall_bg})`,
-                backgroundColor: '#543216',
-                backgroundPosition: 'center', /* Center the image */
-                backgroundRepeat: 'no-repeat', /* Do not repeat the image */
-                backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
-                <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
-                    <div className="text-color justify-center text-center pb-10">
-                        <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Wall-Climbing</h1>
-                        <div className="grid grid-cols-2 gap-4">
-                            <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
-                                <p className="text-2xl  text-white">
-                                    Climb as high as 25 ft and enjoy a mesmerizing view of the venue & the
-                                    neighborhood. (You should be at least 15 to participate)
                                 </p>
                             </div>
-                            <div className="col-span-2 md:col-span-1">
-                                <img src={rock} className={'w-full'} style={{}} alt={'Wall-Climbing'}/>
-                            </div>
+                            <div className={'col-span-2'}> Not</div>
                         </div>
 
                     </div>
                 </div>
             </section>
+
             <section className="w-full h-full " style={{ backgroundImage: `url(${adv_wall_bg})`,
                 backgroundColor: '#543216',
                 backgroundPosition: 'center', /* Center the image */
@@ -358,7 +345,7 @@ function Home() {
                         <h1 className="text-5xl  xl:w-full xl:text-7xl text-white f-f-l p-10">Kinder Garden</h1>
                         <div className="grid grid-cols-2 gap-4">
                             <div className="col-span-2 md:col-span-1">
-                                <img src={kids} className={'w-full'} style={{}} alt={'Rope Rumble'}/>
+                                <img  className={'w-full'} style={{}} alt={'Rope Rumble'}/>
                             </div>
                             <div className="flex flex-wrap content-center col-span-2 md:col-span-1">
                                 <p className="text-2xl font-semibold md:text-3xl text-white">

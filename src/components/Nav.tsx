@@ -41,7 +41,7 @@ const nav_mob = [
         icon: ChartBarIcon,
     },
     {
-        name: 'Blog',
+        name: 'Gallery',
         href: '#',
         icon: ChartBarIcon,
     },
@@ -117,7 +117,7 @@ const Nav: React.FC = () => { {
                             Events
                         </a>
                         <a href="#" className="nav-link">
-                            Blog
+                            Gallery
                         </a>
                         <a href="./locateus" className="nav-link">
                             Locate Us

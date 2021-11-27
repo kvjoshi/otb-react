@@ -8,7 +8,7 @@ import pizza1 from '../assets/bg/pizza_whole.svg'
 function Restro() {
     return (
         <>
-            <section className="relative  w-full h-screen p-30 pt-56 md:p-52 text-blueGray-700" style={{ backgroundImage: `url(${restro_main})`,
+            <section className="relative  w-full h-screen p-56 pt-56 md:p-52 text-blueGray-700" style={{ backgroundImage: `url(${restro_main})`,
                 backgroundColor: '#ffffff',
                 backgroundPosition: 'bottom', /* Center the image */
                 backgroundRepeat: 'no-repeat', /* Do not repeat the image */
@@ -24,14 +24,14 @@ function Restro() {
                         <div className="pb-36 pt-1 xl:pt-20  text-center sm:p-10">
                             <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl"> OTB's restro cafe has a long, mouth watering delicacies list and none of them can be ignored.
                             </p>
-                            <p className='mb-10 pb-36 md:mb-14  text-2xl md:text-4xl lg:text-5xl font-bold '>Eat, drink, enjoy, repeat!</p>
+                            <p className='mb-10 pb-44 md:mb-14  text-2xl md:text-4xl lg:text-5xl font-bold '>Eat, drink, enjoy, repeat!</p>
 
                         </div>
 
                     </div>
                 </div>
             </section>
-            <section className="  w-full h-full " style={{ backgroundImage: `url(${bg_pizza})`,
+            <section className="relative  w-full h-full " style={{ backgroundImage: `url(${bg_pizza})`,
                 backgroundColor: '#c56d6d',
                 backgroundPosition: 'center', /* Center the image */
                 backgroundRepeat: 'no-repeat', /* Do not repeat the image */

@@ -38,7 +38,7 @@ function Events() {
                 backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
                 <div className="relative px-4 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
                     <div className="text-color justify-center text-center pb-10">
-                        <h1 className="text-5xl  xl:w-full xl:text-7xl  f-f-l p-10">Riverside Area</h1>
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl  f-f-l p-10">Riverfront Area</h1>
                         <div className="grid grid-cols-2 gap-4">
                             <div className="col-span-2 md:col-span-1">
                                 <img src={couple} className={'w-full'} style={{}} alt={'paintball battle'}/>
