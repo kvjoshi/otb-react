@@ -7,7 +7,7 @@ import couple from "../assets/bg/couple.svg";
 import blob from "../assets/images/blob1.svg";
 
 
-function Events() {
+function Weddings() {
     return (
         <>
             <section className="relative  w-full h-screen p-30 pt-56 md:p-52 text-blueGray-700" style={{ backgroundImage: `url(${bg_adv_main})`,
@@ -19,12 +19,11 @@ function Events() {
                 <div className="container flex flex-col items-center px-5 py-8 mx-auto">
                     <div className="flex flex-col w-full mb-12 text-left text-center">
                         <h2 className="mb-4 text-xs font-semibold tracking-widest  uppercase title-font">Welcome To</h2>
-                        <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter  lg:w-1/2 sm:text-6xl title-font">Events</h1>
+                        <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter  lg:w-1/2 sm:text-6xl title-font">Weddings</h1>
                         {/*<h2 className="mb-6 text-xs font-semibold tracking-widest text-black uppercase title-font">Amazement Park</h2>*/}
 
                         <div className="pb-36 pt-1 xl:pt-20  text-center sm:p-10">
-                            <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl">
-                                May it be in Parties , Celebrations Or Corporate Events, we have you covered for all! Just invite your guests and enjoy the experience.
+                            <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl">May it be in Lawn, Banquet or Riverfront wedding, we have you covered for all! Just invite your guests and enjoy the experience to attend your wedding as a guest. Wedding is your dream & we believe in making it a reality!
                             </p>
 
                         </div>
@@ -136,4 +135,4 @@ function Events() {
     );
 }
 
-export default Events
+export default Weddings

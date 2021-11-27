@@ -114,7 +114,11 @@ const Nav: React.FC = () => { {
                             Restro Cafe
                         </a>
                         <a href="./events" className="nav-link">
-                            Events
+                            Weddings
+                        </a>
+                        <a href="./events" className="nav-link text-center">
+                            Events<br/>
+                            Celebrations
                         </a>
                         <a href="#" className="nav-link">
                             Gallery
