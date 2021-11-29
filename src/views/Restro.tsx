@@ -96,10 +96,10 @@ function Restro() {
                     <div className="text-color justify-center text-center pb-10 ">
                         <h1 className="text-5xl  xl:w-full xl:text-7xl  f-f-l p-10">White Desert Cafe</h1>
                         <div className="grid grid-cols-4 gap-4">
-                            <div className="col-span-2 lg:col-span-2">
+                            <div className="col-span-4 lg:col-span-2">
                                 <img src={pizza_1} className={'w-full'} style={{}} alt={'paintball battle'}/>
                             </div>
-                            <div className="flex flex-wrap content-center col-span-2 lg:col-span-2">
+                            <div className="flex flex-wrap content-center col-span-4 lg:col-span-2">
                                 <h1 className="text-3xl ">
                                     We are not simply baking pizza but involved in other fast food like sandwiches, burgers & smoothies. We make individuals happy and satisfy their hunger. We vouch for the quality of food served as it signifies & establishes a sense of trust in our customers. </h1>
 
