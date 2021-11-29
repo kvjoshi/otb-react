@@ -27,7 +27,8 @@ import pizza from "../assets/images/g127884.png";
 import sizller from "../assets/images/g90143.png";
 import paintball_batte from '../assets/img/paintball_home.svg';
 import Flicking from "@egjs/react-flicking";
-
+import wedding_couple1 from '../assets/img/wedding_couple1.svg';
+import party_og from '../assets/img/party_og.svg';
 
 
 function Home() {
@@ -201,7 +202,7 @@ function Home() {
 
 
                             <div
-                                className="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+                                className="grid items-center grid-cols-1  md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
                                 <div>
 
                                     <p className="mb-5 text-base text-center text-white sm:text-left md:text-lg">
@@ -211,7 +212,9 @@ function Home() {
                                     </p>
                                     <a href="#" className="w-full btn btn-purple btn-lg sm:w-auto">Learn More</a>
                                 </div>
-                                <div className="w-full h-full py-48 bg-gray-200"></div>
+                                <div className="w-full h-full py-10 justify-center content-center flex">
+                                    <img src={party_og} className='lg:h-1/2 self-center content-center'/>
+                                </div>
                             </div>
                         <div className='grid item-center pt-16'>
                             <p className="mb-5 text-base w-full text-center text-white  md:text-lg">
@@ -233,7 +236,9 @@ function Home() {
                                     </p>
                                     <a href="#" className="w-full btn btn-purple btn-lg sm:w-auto">Learn More</a>
                                 </div>
-                                <div className="w-full h-full py-48 bg-gray-200"></div>
+                                <div className="w-full h-full py-10 justify-center content-center flex">
+                                <img src={wedding_couple1} className='lg:h-1/2 self-center content-center'/>
+                                </div>
                             </div>
                         
 

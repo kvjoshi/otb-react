@@ -15,7 +15,7 @@ import couple from "../assets/bg/couple.svg";
 function Restro() {
     return (
         <>
-            <section className="relative  w-full h-screen p-56 pt-56 lg:p-52 text-blueGray-700" style={{ backgroundImage: `url(${restro_main})`,
+            <section className="relative  w-full h-screen  pt-56 lg:p-52 text-blueGray-700" style={{ backgroundImage: `url(${restro_main})`,
                 backgroundColor: '#ffffff',
                 backgroundPosition: 'bottom', /* Center the image */
                 backgroundRepeat: 'no-repeat', /* Do not repeat the image */
@@ -24,7 +24,7 @@ function Restro() {
                 <div className="container flex flex-col items-center px-5 py-8 mx-auto text-white">
                     <div className="flex flex-col w-full mb-12 text-left text-center">
                         <h2 className="mb-4 text-xs font-semibold tracking-widest  uppercase title-font">Welcome To</h2>
-                        <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter  lg:w-1/2 sm:text-6xl title-font">Restro-Cafe</h1>
+                        <h1 className="mx-auto mb-6 text-2xl font-semibold leading-none tracking-tighter w-full  lg:w-1/2 sm:text-6xl title-font">Restro-Cafe</h1>
 
 
 
@@ -43,7 +43,7 @@ function Restro() {
                 backgroundPosition: 'center', /* Center the image */
                 backgroundRepeat: 'no-repeat', /* Do not repeat the image */
                 backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
-                <div className="relative px-24 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                <div className="relative px-12 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
                     <div className="text-color justify-center text-center pb-10 ">
                         <h1 className="text-5xl  xl:w-full xl:text-7xl  f-f-l p-10 text-white">Mealbox Resturant</h1>
                         <div className="grid grid-cols-4 gap-4 ">
@@ -114,47 +114,47 @@ function Restro() {
                 backgroundPosition: 'center', /* Center the image */
                 backgroundRepeat: 'no-repeat', /* Do not repeat the image */
                 backgroundSize: 'cover', /* Resize the background image to cover the entire container */ }}>
-                <div className="relative px-24 xl:px-0 h-full  container mx-auto grid p-36 sm:p-20">
+                <div className="relative  xl:px-0 h-full  container mx-auto grid  sm:p-20">
                     <div className="text-color justify-center text-center pb-10 ">
-                        <h1 className="text-5xl  xl:w-full xl:text-7xl  f-f-l p-10">Some Of Our Services</h1>
-                        <div className="grid grid-cols-4 gap-4 text-center p-20">
+                        <h1 className="text-5xl  xl:w-full xl:text-7xl  f-f-l pb-20">Some Of Our Services</h1>
+                        <div className="grid grid-cols-4 gap-4 text-center  w-full">
                             {/*<div className="col-span-2 lg:col-span-1">
                                 <img src={pizza1} className={'w-full'} style={{}} alt={'paintball battle'}/>
                             </div>*/}
 
 
 
-                            <div className="col-span-4 md:col-span-2 lg:col-span-2 p-4">
+                            <div className="col-span-4 md:col-span-2 lg:col-span-2 p-4  pb-10">
                                 <img src={birthday_1} className={'w-full'} style={{}} alt={'paintball battle'}/>
                                 <p className="text-2xl ">
                                     Birthday Party
                                 </p>
                             </div>
-                            <div className="col-span-4 md:col-span-2 lg:col-span-1 p-4">
+                            <div className="col-span-4 md:col-span-2 lg:col-span-1 p-4 pb-10">
                                 <img src={candle_light} className={'w-full'} style={{}} alt={'paintball battle'}/>
                                 <p className="text-2xl ">
                                     Poolside Dinner
                                 </p>
                             </div>
-                            <div className="col-span-4 md:col-span-2 lg:col-span-1 p-4">
+                            <div className="col-span-4 md:col-span-2 lg:col-span-1 p-4 pb-10">
                                 <img src={candle_light} className={'w-full'} style={{}} alt={'paintball battle'}/>
                                 <p className="text-2xl ">
                                     Candle Light Dinner
                                 </p>
                             </div>
-                            <div className="col-span-4 md:col-span-2 lg:col-span-2 p-4">
+                            <div className="col-span-4 md:col-span-2 lg:col-span-2 p-4 pb-10">
                                 <img src={buffet} className={'w-full'} style={{}} alt={'paintball battle'}/>
                                 <p className="text-2xl ">
                                     Buffet
                                 </p>
                             </div>
-                            <div className="col-span-4 md:col-span-2 lg:col-span-1 p-4">
+                            <div className="col-span-4 md:col-span-2 lg:col-span-1 p-4 pb-10">
                                 <img src={candle_light} className={'w-full'} style={{}} alt={'paintball battle'}/>
                                 <p className="text-2xl ">
                                     Group Booking
                                 </p>
                             </div>
-                            <div className="col-span-4 md:col-span-2 lg:col-span-1 p-4">
+                            <div className="col-span-4 md:col-span-2 lg:col-span-1 p-4 pb-10">
                                 <img src={kitty_party} className={'w-full'} style={{}} alt={'paintball battle'}/>
                                 <p className="text-2xl ">
                                     Kitty Party
