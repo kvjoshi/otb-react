@@ -23,7 +23,8 @@ function Weddings() {
                         {/*<h2 className="mb-6 text-xs font-semibold tracking-widest text-black uppercase title-font">Amazement Park</h2>*/}
 
                         <div className="pb-36 pt-1 xl:pt-20  text-center sm:p-10">
-                            <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl">May it be in Lawn, Banquet or Riverfront wedding, we have you covered for all! Just invite your guests and enjoy the experience to attend your wedding as a guest. Wedding is your dream & we believe in making it a reality!
+                            <p className="mb-8 md:mb-14 text-lg  font-semibold md:text-2xl lg:text-3xl">
+                                May it be in Lawn, Banquet or Riverfront wedding, we have you covered for all! Just invite your guests and enjoy the experience to attend your wedding as a guest. Wedding is your dream & we believe in making it a reality!
                             </p>
 
                         </div>

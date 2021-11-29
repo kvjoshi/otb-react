@@ -36,6 +36,11 @@ const nav_mob = [
         icon: ChartBarIcon,
     },
     {
+        name:'Weddings',
+        href:'weddings',
+        icon:ChartBarIcon
+    },
+    {
         name: 'Events',
         href: 'events',
         icon: ChartBarIcon,
@@ -113,7 +118,7 @@ const Nav: React.FC = () => { {
                         <a href="./restro" className="nav-link">
                             Restro Cafe
                         </a>
-                        <a href="./events" className="nav-link">
+                        <a href="./weddings" className="nav-link">
                             Weddings
                         </a>
                         <a href="./events" className="nav-link text-center">

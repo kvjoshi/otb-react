@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Aqua from "./views/Aqua";
 import Restro from "./views/Restro";
 import Events from "./views/Events";
+import Weddings from "./views/Weddings";
 
 const App = () => {
   return (
@@ -34,6 +35,9 @@ const App = () => {
         </Route>
         <Route path="/events">
           <Events />
+        </Route>
+        <Route path="/weddings">
+          <Weddings />
         </Route>
         <Route>
           <NotFound />
